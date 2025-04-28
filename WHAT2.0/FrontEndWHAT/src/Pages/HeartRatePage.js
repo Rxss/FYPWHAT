@@ -84,7 +84,7 @@ const HeartRatePage = () => {
         body: JSON.stringify({
           heartRate,
           temperature,
-          location: { lat: 0, lng: 0 } // You might want to get actual location
+          location: { lat: 0, lng: 0 } // default location
         })
       });
 
